@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Ahmad Badri</title>
+    <link rel="shortcut icon" href="src/img/logo-badri-tab.png" />
+    <link rel="stylesheet" href="dist/css/splide.min.css" />
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Fixed Section Start -->
+    <a href="#" class="hidden lg:block sm:fixed sm:z-50 sm:top-0 sm:left-0 sm:mt-16 sm:ml-16">
+      <img src="src/img/logo-badri.png" alt="logo-badri" class="sm:w-16" />
+    </a>
+
+    <div class="hidden lg:block sm:fixed sm:z-50 sm:top-0 sm:right-0 sm:mt-16 sm:mr-20">
+      <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+        <svg id="theme-toggle-dark-icon" class="hidden" width="30px" height="30px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            class="group-hover:stroke-[#198CFF]"
+            d="M18.9618 10.79C18.8045 12.4922 18.1657 14.1144 17.1201 15.4668C16.0744 16.8192 14.6653 17.8458 13.0575 18.4265C11.4497 19.0073 9.7098 19.1181 8.04132 18.7461C6.37283 18.3741 4.84481 17.5345 3.63604 16.3258C2.42727 15.117 1.58775 13.589 1.21572 11.9205C0.843691 10.252 0.954531 8.51208 1.53528 6.9043C2.11602 5.29651 3.14265 3.88737 4.49503 2.84175C5.84741 1.79614 7.46961 1.15731 9.17182 1C8.17523 2.34827 7.69566 4.00945 7.82035 5.68141C7.94503 7.35338 8.66568 8.92506 9.85122 10.1106C11.0368 11.2961 12.6084 12.0168 14.2804 12.1415C15.9524 12.2662 17.6135 11.7866 18.9618 10.79Z"
+            stroke="#198CFF"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+        <svg id="theme-toggle-light-icon" class="hidden" width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M12 1V3" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M12 21V23" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4.21997 4.22003L5.63997 5.64003" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M18.36 18.36L19.78 19.78" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M1 12H3" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M21 12H23" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4.21997 19.78L5.63997 18.36" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M18.36 5.64003L19.78 4.22003" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </button>
+    </div>
+
+    <ul class="hidden lg:block sm:fixed sm:z-50 sm:bottom-0 sm:left-0 sm:mb-20 sm:ml-20">
+      <li class="sm:mt-0">
+        <a href="https://www.linkedin.com/in/ahmadbadri25/" target="_blank">
+          <svg width="20" height="19" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M15 7C16.5913 7 18.1174 7.63214 19.2426 8.75736C20.3679 9.88258 21 11.4087 21 13V20H17V13C17 12.4696 16.7893 11.9609 16.4142 11.5858C16.0391 11.2107 15.5304 11 15 11C14.4696 11 13.9609 11.2107 13.5858 11.5858C13.2107 11.9609 13 12.4696 13 13V20H9V13C9 11.4087 9.63214 9.88258 10.7574 8.75736C11.8826 7.63214 13.4087 7 15 7V7Z"
+              stroke="#198CFF"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path d="M5 8H1V20H5V8Z" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M3 5C4.10457 5 5 4.10457 5 3C5 1.89543 4.10457 1 3 1C1.89543 1 1 1.89543 1 3C1 4.10457 1.89543 5 3 5Z" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+      </li>
+      <li class="sm:mt-6">
+        <a href="https://github.com/ahmadbadri25" target="_blank">
+          <svg width="20" height="22" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8 19.0268C3 20.5268 3 16.5268 1 16.0268M15 22.0268V18.1568C15.0375 17.68 14.9731 17.2006 14.811 16.7506C14.6489 16.3006 14.3929 15.8902 14.06 15.5468C17.2 15.1968 20.5 14.0068 20.5 8.54679C20.4997 7.15062 19.9627 5.80799 19 4.79679C19.4559 3.5753 19.4236 2.22514 18.91 1.02679C18.91 1.02679 17.73 0.676793 15 2.50679C12.708 1.88561 10.292 1.88561 8 2.50679C5.27 0.676793 4.09 1.02679 4.09 1.02679C3.57638 2.22514 3.54414 3.5753 4 4.79679C3.03013 5.81549 2.49252 7.17026 2.5 8.57679C2.5 13.9968 5.8 15.1868 8.94 15.5768C8.611 15.9168 8.35726 16.3222 8.19531 16.7667C8.03335 17.2112 7.96681 17.6849 8 18.1568V22.0268"
+              stroke="#198CFF"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </a>
+      </li>
+      <li class="sm:mt-6">
+        <a href="https://www.instagram.com/badruui/" target="_blank">
+          <svg width="20" height="21" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M16 1.02679H6C3.23858 1.02679 1 3.26537 1 6.02679V16.0268C1 18.7882 3.23858 21.0268 6 21.0268H16C18.7614 21.0268 21 18.7882 21 16.0268V6.02679C21 3.26537 18.7614 1.02679 16 1.02679Z"
+              stroke="#198CFF"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M15.0001 10.3968C15.1235 11.229 14.9813 12.079 14.5938 12.8258C14.2063 13.5726 13.5932 14.1782 12.8417 14.5565C12.0902 14.9347 11.2385 15.0664 10.4079 14.9327C9.5772 14.7991 8.80983 14.4069 8.21491 13.812C7.61999 13.217 7.22781 12.4497 7.09414 11.619C6.96048 10.7883 7.09214 9.93668 7.4704 9.18516C7.84866 8.43364 8.45426 7.82053 9.20106 7.43303C9.94786 7.04553 10.7978 6.90338 11.6301 7.02679C12.479 7.15268 13.2649 7.54825 13.8718 8.1551C14.4786 8.76194 14.8742 9.54787 15.0001 10.3968Z"
+              stroke="#198CFF"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path d="M16.5 5.52679H16.51" stroke="#198CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <a href="#" class="hidden sm:fixed sm:z-50 sm:bottom-0 sm:right-0 sm:mb-[8.5rem] sm:mr-20 sm:w-5 lg:flex lg:flex-col">
+      <svg width="20" height="29" viewBox="0 0 20 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="18" height="27" rx="9" stroke="#198CFF" stroke-width="2"></rect>
+        <line x1="10" y1="8" x2="10" y2="14" stroke="#198CFF" stroke-width="2" stroke-linecap="round"></line>
+      </svg>
+      <p class="sm:pl-3 sm:whitespace-nowrap sm:rotate-90 sm:text-sm sm:text-[#198CFF] sm:font-medium">Scrool on</p>
+    </a>
+    <!-- Fixed Section End -->
+
+    <!-- Home Section Start -->
+    <section id="home" class="pt-14 bg-transparent sm:pt-24 max-w-2xl mx-auto relative">
+      <div class="container">
+        <div class="w-full px-1 mb-4">
+          <h1 class="text-3xl leading-none sm:text-4xl dark:text-white transition duration-500">Hi, I am Ahmad Badri</h1>
+          <h2 class="text-xl sm:text-2xl dark:text-white transition duration-500"><span id="typed"></span></h2>
+          <label for="dark-toggle" class="absolute top-0 right-0 mt-6 mr-4 inline-flex items-center cursor-pointer lg:hidden">
+            <input type="checkbox" value="" class="sr-only peer" id="dark-toggle" />
+            <div
+              class="w-9 h-5 bg-gray-300 peer-focus:outline-none peer-focus:ring-1 peer-focus:ring-blue-300 dark:peer-focus:ring-primary rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-primary"
+            ></div>
+          </label>
+        </div>
+
+        <div class="w-full px-1">
+          <div class="flex bg-primary dark:bg-slate-700 transition duration-500 rounded-[20px] p-4 relative sm:bg-white sm:border-8 sm:border-primary">
+            <div class="w-[60%] sm:w-[58%]">
+              <p class="text-xs text-white dark:text-white sm:text-lg sm:text-black transition duration-500">
+                A student who is interested and passionate about Web Front End Development. I am actively creating small projects that involve web development. I have knowledge and skills in using HTML, CSS, PHP, and Javascript to create
+                attractive and interactive website interfaces.
+              </p>
+            </div>
+            <div class="w-[60%] absolute bottom-0 right-2 sm:w-[40%]">
+              <img src="src/img/badri-foto.png" alt="Ahmad Badri" class="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full">
+        <div class="grid grid-cols-12 items-end bg-secondary dark:bg-slate-800 transition duration-500 rounded-tl-[40px] rounded-br-[40px] pt-20 pb-8 px-5 mt-[-45px] sm:bg-white sm:border-8 sm:border-secondary">
+          <div class="col-span-7 relative">
+            <h3 class="sosmed-item email text-xs text-white dark:text-white transition duration-500 sm:text-base sm:text-black">Email</h3>
+            <h3 class="sosmed-item instagram text-xs text-white dark:text-white transition duration-500 sm:text-base sm:text-black hidden">Instagram</h3>
+            <h3 class="sosmed-item facebook text-xs text-white dark:text-white transition duration-500 sm:text-base sm:text-black hidden">Facebook</h3>
+            <h3 class="sosmed-item linkedin text-xs text-white dark:text-white transition duration-500 sm:text-base sm:text-black hidden">Linkedin</h3>
+            <h3 class="sosmed-item github text-xs text-white dark:text-white transition duration-500 sm:text-base sm:text-black hidden">Github</h3>
+            <h3 class="sosmed-item twitter text-xs text-white dark:text-white transition duration-500 sm:text-base sm:text-black hidden">Twitter</h3>
+            <h4 class="sosmed-item email text-xs text-white dark:text-white transition duration-500 sm:text-lg sm:text-black font-medium">25.ahmadbadri25gmail.com</h4>
+            <h4 class="sosmed-item instagram facebook linkedin github twitter text-lg text-white dark:text-white transition duration-500 sm:text-xl sm:text-black font-medium hidden">Ahmad badri</h4>
+            <button class="sosmed-item email shift-arrow mt-4">
+              <a href="mailto:25.ahmadbadri@gmail.com" target="_blank" class="flex gap-[6px] text-[12px] bg-white hover:bg-slate-300 transition duration-300 py-2 px-4 rounded-full shadow-2xl sm:text-sm sm:border-2 sm:border-secondary">
+                Send a Email
+                <svg xmlns="http://www.w3.org/2000/svg" width="11px" class="relative" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <button class="sosmed-item instagram shift-arrow mt-4 hidden">
+              <a href="https://www.instagram.com/badruui/" target="_blank" class="flex gap-2 text-[12px] bg-white hover:bg-slate-300 transition duration-300 py-2 px-4 rounded-full shadow-2xl sm:text-sm sm:border-2 sm:border-secondary">
+                Follow
+                <svg xmlns="http://www.w3.org/2000/svg" width="11px" class="relative" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <button class="sosmed-item facebook shift-arrow mt-4 hidden">
+              <a href="https://facebook.com/" target="_blank" class="flex gap-2 text-[12px] bg-white hover:bg-slate-300 transition duration-300 py-2 px-4 rounded-full shadow-2xl sm:text-sm sm:border-2 sm:border-secondary">
+                Add to Friend
+                <svg xmlns="http://www.w3.org/2000/svg" width="11px" class="relative" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <button class="sosmed-item linkedin shift-arrow mt-4 hidden">
+              <a
+                href="https://www.linkedin.com/in/ahmadbadri25"
+                target="_blank"
+                class="flex gap-2 text-[12px] bg-white hover:bg-slate-300 transition duration-300 py-2 px-4 rounded-full shadow-2xl sm:text-sm sm:border-2 sm:border-secondary"
+              >
+                Follow
+                <svg xmlns="http://www.w3.org/2000/svg" width="11px" class="relative" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <button class="sosmed-item github shift-arrow mt-4 hidden">
+              <a href="https://github.com/ahmadbadri25" target="_blank" class="flex gap-2 text-[12px] bg-white hover:bg-slate-300 transition duration-300 py-2 px-4 rounded-full shadow-2xl sm:text-sm sm:border-2 sm:border-secondary">
+                Visit Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="11px" class="relative" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <button class="sosmed-item twitter shift-arrow mt-4 hidden">
+              <a href="https://twitter.com/ahmadbadri25" target="_blank" class="flex gap-2 text-[12px] bg-white hover:bg-slate-300 transition duration-300 py-2 px-4 rounded-full shadow-2xl sm:text-sm sm:border-2 sm:border-secondary">
+                Follow
+                <svg xmlns="http://www.w3.org/2000/svg" width="11px" class="relative" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <div class="sosmed-item email absolute bottom-0 right-4 mb-[-5px]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" class="fill-white dark:fill-white transition duration-500 opacity-10 sm:fill-black sm:w-[50px]" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                />
+              </svg>
+            </div>
+            <div class="sosmed-item instagram absolute bottom-0 right-4 mb-[-4px] hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36px" class="fill-white dark:fill-white transition duration-500 opacity-10 sm:fill-black sm:w-[46px]" viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </div>
+            <div class="sosmed-item facebook absolute bottom-0 right-4 hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25px" class="fill-white dark:fill-white transition duration-500 opacity-10 sm:fill-black sm:w-[35px]" viewBox="0 0 320 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+              </svg>
+            </div>
+            <div class="sosmed-item linkedin absolute bottom-0 right-4 mb-[-2px] hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36px" class="fill-white dark:fill-white transition duration-500 opacity-10 sm:fill-black sm:w-[46px]" viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                />
+              </svg>
+            </div>
+            <div class="sosmed-item github absolute bottom-0 right-4 mb-[-1px] hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38px" class="fill-white dark:fill-white transition duration-500 opacity-10 sm:fill-black sm:w-[48px]" viewBox="0 0 496 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                />
+              </svg>
+            </div>
+            <div class="sosmed-item twitter absolute bottom-0 right-4 mb-[-5px] hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" class="fill-white dark:fill-white transition duration-500 opacity-10 sm:fill-black sm:w-[50px]" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="col-span-5">
+            <h2 class="text-white dark:text-white transition duration-500 text-right text-[17px] font-semibold mb-3 sm:text-xl sm:text-black">Social Media</h2>
+            <div class="grid grid-cols-3 gap-2">
+              <div id="email-button" class="icon active filter-sosmed flex justify-center items-center bg-white rounded-lg p-3 hover:opacity-80 transition duration-300 ease-in-out sm:py-4 sm:border-4" sosmed-filter="email">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] sm:scale-125" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                  />
+                </svg>
+              </div>
+              <div id="instagram-button" class="icon filter-sosmed flex justify-center items-center bg-white rounded-lg p-3 hover:opacity-80 transition duration-300 ease-in-out sm:py-4 sm:border-4" sosmed-filter="instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] sm:scale-125" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  />
+                </svg>
+              </div>
+              <div id="facebook-button" class="icon filter-sosmed flex justify-center items-center bg-white rounded-lg p-3 hover:opacity-80 transition duration-300 ease-in-out sm:py-4 sm:border-4" sosmed-filter="facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-[14px] sm:scale-125" viewBox="0 0 320 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                </svg>
+              </div>
+              <div id="linkedin-button" class="icon filter-sosmed flex justify-center items-center bg-white rounded-lg p-3 hover:opacity-80 transition duration-300 ease-in-out sm:py-4 sm:border-4" sosmed-filter="linkedin">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 sm:scale-125" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                  />
+                </svg>
+              </div>
+              <div id="github-button" class="icon filter-sosmed flex justify-center items-center bg-white rounded-lg p-3 hover:opacity-80 transition duration-300 ease-in-out sm:py-4 sm:border-4" sosmed-filter="github">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 sm:scale-125" viewBox="0 0 496 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  />
+                </svg>
+              </div>
+              <div id="twitter-button" class="icon filter-sosmed flex justify-center items-center bg-white rounded-lg p-3 hover:opacity-80 transition duration-300 ease-in-out sm:py-4 sm:border-4" sosmed-filter="twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 sm:scale-125" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Education Section Start -->
+    <section id="education" class="splide pt-4 pb-5 bg-white dark:bg-dark transition duration-500 rounded-bl-[40px] relative z-10 sm:pb-7 max-w-2xl mx-auto">
+      <div class="sm:border-b-8 sm:border-b-secondary sm:border-l-8 sm:border-l-secondary sm:rounded-bl-[40px] sm:absolute sm:bottom-0 sm:top-[80%] sm:w-full"></div>
+      <div class="container">
+        <div class="w-full px-1">
+          <h2 class="text-[17px] dark:text-white transition duration-500 font-semibold mb-3 sm:text-xl">Education</h2>
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide list-education relative min-w-[285px] px-5 py-2 mr-[10px] bg-primary dark:bg-slate-700 transition duration-500 rounded-[20px] overflow-hidden sm:py-4">
+                <h3 class="text-[17px] text-white font-[550] sm:text-2xl">University Indraprasta PGRI</h3>
+                <h4 class="text-base text-white font-medium leading-none mb-2 sm:mb-3 sm:leading-snug sm:text-lg">Jakarta</h4>
+                <p class="text-[11px] bg-primaryLight dark:bg-slate-600 transition duration-500 px-2 py-1 rounded-full inline sm:text-sm sm:px-3 dark:text-white">2020 - Now</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-[-40px] top-[-5px] rotate-[-40deg] transition duration-300 w-[8.5rem] fill-white opacity-10 sm:w-[10.5rem] sm:top-0" viewBox="0 0 640 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                  />
+                </svg>
+              </li>
+              <li class="splide__slide list-education relative min-w-[285px] px-5 py-2 mr-[10px] bg-primary dark:bg-slate-700 transition duration-500 rounded-[20px] overflow-hidden sm:py-4">
+                <h3 class="text-[19px] text-white font-[550] sm:text-2xl">SMKN 4 Bekasi City</h3>
+                <h4 class="text-base text-white font-medium leading-none mb-2 sm:mb-3 sm:leading-snug sm:text-lg">Bekasi City</h4>
+                <p class="text-[11px] bg-primaryLight dark:bg-slate-600 transition duration-500 px-2 py-1 rounded-full inline sm:text-sm sm:px-3 dark:text-white">2016 - 2019</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-[-40px] top-[-5px] rotate-[-40deg] transition duration-300 w-[8.5rem] fill-white opacity-10 sm:w-[10.5rem] sm:top-0" viewBox="0 0 640 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                  />
+                </svg>
+              </li>
+              <li class="splide__slide list-education relative min-w-[285px] px-5 py-2 mr-[10px] bg-primary dark:bg-slate-700 transition duration-500 rounded-[20px] overflow-hidden sm:py-4">
+                <h3 class="text-[19px] text-white font-[550] sm:text-2xl">SMPN 35 Bekasi City</h3>
+                <h4 class="text-base text-white font-medium leading-none mb-2 sm:mb-3 sm:leading-snug sm:text-lg">Bekasi City</h4>
+                <p class="text-[11px] bg-primaryLight dark:bg-slate-600 transition duration-500 px-2 py-1 rounded-full inline sm:text-sm sm:px-3 dark:text-white">2013 - 2016</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-[-40px] top-[-5px] rotate-[-40deg] transition duration-300 w-[8.5rem] fill-white opacity-10 sm:w-[10.5rem] sm:top-0" viewBox="0 0 640 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                  />
+                </svg>
+              </li>
+              <li class="splide__slide list-education relative min-w-[285px] px-5 py-2 mr-[10px] bg-primary dark:bg-slate-700 transition duration-500 rounded-[20px] overflow-hidden sm:py-4">
+                <h3 class="text-[19px] text-white font-[550] sm:text-2xl">SDN 3 Jatimurni</h3>
+                <h4 class="text-base text-white font-medium leading-none mb-2 sm:mb-3 sm:leading-snug sm:text-lg">Bekasi City</h4>
+                <p class="text-[11px] bg-primaryLight dark:bg-slate-600 transition duration-500 px-2 py-1 rounded-full inline sm:text-sm sm:px-3 dark:text-white">2008 - 2013</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-[-40px] top-[-5px] rotate-[-40deg] transition duration-300 w-[8.5rem] fill-white opacity-10 sm:w-[10.5rem] sm:top-0" viewBox="0 0 640 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education Section End -->
+
+    <!-- Skills Section Start -->
+    <section id="skills" class="pt-16 pb-20 bg-secondary dark:bg-slate-800 transition duration-500 relative mt-[-40px] sm:bg-white sm:border-8 sm:border-secondary max-w-2xl mx-auto">
+      <div class="container">
+        <div class="w-full px-1 mb-2">
+          <h2 class="text-white dark:text-white transition duration-500 text-[17px] font-semibold mb-4 sm:text-xl sm:text-black">Skills</h2>
+          <div class="pb-3 scrollbar-thin scrollbar-thumb-primary scrollbar-track-primaryLight dark:scrollbar-thumb-slate-800 dark:scrollbar-track-slate-700 overflow-x-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
+            <div class="flex gap-2 w-[300px] sm:w-[315px]">
+              <button class="btn-skills active filter-skills text-sm dark:text-white py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 sm:text-base" skills-filter="all">ALL</button>
+              <button class="btn-skills filter-skills text-sm dark:text-white py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 sm:text-base" skills-filter="front-end">Front-End</button>
+              <button class="btn-skills filter-skills text-sm dark:text-white py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 sm:text-base" skills-filter="back-end">Back-End</button>
+              <button class="btn-skills filter-skills text-sm dark:text-white py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 sm:text-base" skills-filter="tools">Tools</button>
+              <button class="btn-skills filter-skills text-sm dark:text-white py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 sm:text-base" skills-filter="soft-skill">Soft-Skill</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full px-1">
+          <div class="flex flex-wrap gap-2 justify-center">
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/html-1.0fc2b83d.svg" alt="HTML" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/css-3.18344ad1.svg" alt="CSS" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/javascript-1.877889fe.svg" alt="JavaScript" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/Typescript_logo.svg" alt="typescript" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/jquery-svgrepo-com.svg" alt="jqeury" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="back-end">
+              <img src="src/img/icon/php-1.a90b047e.svg" alt="PHP" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/bootstrap-5-1.de64f6ae.svg" alt="Bootstrap" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="front-end">
+              <img src="src/img/icon/java-logo-svgrepo-com.svg" alt="java" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="back-end">
+              <img src="src/img/icon/mysql-4.5452bf56.svg" alt="MySQL" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="back-end">
+              <img src="src/img/icon/sql.svg" alt="sql" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/cpanel.82ec611c.svg" alt="Cpanel" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/office.svg" alt="Codeigniter" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/brand-netbeans-svgrepo-com.svg" alt="netbeans" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/visual-studio-code-1.537f35e1.svg" alt="VS Code" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/Git-Icon-1788C.svg" alt="GIT" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/xampp.64cc9e9a.svg" alt="XAMPP" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/figma-svgrepo-com.svg" alt="Figma" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/capcut-video-editor-icon.png" alt="Capcut" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/vn-video-editor.png" alt="VN Video Editor" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="tools">
+              <img src="src/img/icon/1656733637logo-canva-png.webp" alt="Canva" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="soft-skill">
+              <img src="src/img/icon/support-svgrepo-com.svg" alt="it support" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="soft-skill">
+              <img src="src/img/icon/executive-boss-instructor-svgrepo-com.svg" alt="leader" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="soft-skill">
+              <img src="src/img/icon/planning-managing-agenda-svgrepo-com.svg" alt="project manage" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="soft-skill">
+              <img src="src/img/icon/idea-light-bulb-svgrepo-com.svg" alt="problem solving" />
+            </div>
+            <div class="skills-item flex justify-center w-[18%] items-center h-20 bg-white dark:bg-dark transition duration-500 rounded-lg p-4 sm:border-4 dark:sm:border-dark sm:h-36" skills-category="soft-skill">
+              <img src="src/img/icon/group-chat-svgrepo-com.svg" alt="adaptasi" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Hobbies Section Start -->
+    <section id="hobbies" class="splide pt-4 pb-16 bg-white dark:bg-dark transition duration-500 rounded-tr-[40px] relative z-10 mt-[-40px] sm:pt-7 max-w-2xl mx-auto">
+      <div class="sm:border-t-8 sm:border-t-secondary sm:border-r-8 sm:border-r-secondary sm:rounded-tr-[40px] sm:absolute sm:top-0 sm:bottom-[80%] sm:w-full"></div>
+      <div class="container">
+        <div class="w-full px-1">
+          <h2 class="text-[17px] dark:text-white transition duration-500 font-semibold mb-3 sm:text-xl">Hobbies</h2>
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide flex items-center relative min-w-[285px] sm:min-w-[335px]">
+                <div class="hobbies-item absolute px-4 bg-primaryLight dark:bg-slate-500 transition duration-500 rounded-2xl">
+                  <img src="src/img/hobbies/badminton-svgrepo-com.svg" alt="badminton" class="w-16 sm:w-20" />
+                </div>
+                <div class="flex items-center w-[240px] ml-6 px-5 h-24 bg-secondary dark:bg-slate-800 transition duration-500 rounded-2xl sm:w-[260px] sm:h-28 sm:ml-10">
+                  <h3 class="text-xl ml-16 text-white font-medium sm:text-2xl">Badminton</h3>
+                </div>
+              </li>
+              <li class="splide__slide flex items-center relative min-w-[285px] sm:min-w-[335px]">
+                <div class="hobbies-item absolute px-4 bg-primaryLight dark:bg-slate-500 transition duration-500 rounded-2xl">
+                  <img src="src/img/hobbies/workout.svg" alt="Workout" class="w-16 sm:w-20" />
+                </div>
+                <div class="flex items-center w-[240px] ml-6 px-5 h-24 bg-secondary dark:bg-slate-800 transition duration-500 rounded-2xl sm:w-[260px] sm:h-28 sm:ml-10">
+                  <h3 class="text-xl ml-16 text-white font-medium sm:text-2xl">Workout</h3>
+                </div>
+              </li>
+              <li class="splide__slide flex items-center relative min-w-[285px] sm:min-w-[335px]">
+                <div class="hobbies-item absolute px-4 bg-primaryLight dark:bg-slate-500 transition duration-500 rounded-2xl">
+                  <img src="https://www.svgrepo.com/show/475605/dj.svg" alt="Listen Music" class="w-16 sm:w-20" />
+                </div>
+                <div class="flex items-center w-[240px] ml-6 px-5 h-24 bg-secondary dark:bg-slate-800 transition duration-500 rounded-2xl sm:w-[260px] sm:h-28 sm:ml-10">
+                  <h3 class="text-xl ml-16 text-white font-medium sm:text-2xl">Watch a Movie</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hobbies Section End -->
+
+    <!-- Certificate Section Start -->
+    <section id="certificate" class="pt-10 pb-10 bg-secondary dark:bg-slate-800 transition duration-500 relative rounded-tl-[40px] rounded-br-[40px] z-10 mt-[-40px] sm:bg-white sm:border-8 sm:border-secondary max-w-2xl mx-auto">
+      <div class="container">
+        <div class="w-full px-1 mb-8 sm:mb-2">
+          <h2 class="text-[17px] text-white dark:text-white transition duration-500 font-semibold mb-4 sm:text-xl sm:text-black">Certificate</h2>
+          <div class="pb-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-primaryLight dark:scrollbar-thumb-slate-700 dark:scrollbar-track-slate-600 overflow-x-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
+            <div class="flex gap-2">
+              <button class="btn-certificates active filter-certificates text-sm py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 dark:text-white sm:text-base" certificates-filter="all-certificates">
+                ALL
+              </button>
+              <button class="btn-certificates filter-certificates text-sm py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 dark:text-white sm:text-base" certificates-filter="completion">Completion</button>
+              <button class="btn-certificates filter-certificates text-sm py-1 px-4 rounded-full bg-primaryLight dark:bg-slate-500 transition duration-500 dark:text-white sm:text-base" certificates-filter="seminar">Seminar</button>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-1 sm:px-6 sm:pb-6 sm:pt-14 sm:bg-secondary dark:sm:bg-slate-700 sm:rounded-lg">
+          <div class="all-certificate-container">
+            <div class="main-slider-all splide">
+              <div class="splide__track overflow-visible">
+                <ul class="splide__list">
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">VSGA Kominfo Digitalent</h3>
+                    <img src="src/img/certificate/sertif2.jpg" alt="Kominfo VSGA Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Metaverse Digitalent</h3>
+                    <img src="src/img/certificate/sertif1.jpg" alt="Metaverse" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">HTML Myskill</h3>
+                    <img src="src/img/certificate/sertif3.jpg" alt="HTML Myskill" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">CSS Myskill</h3>
+                    <img src="src/img/certificate/sertif4.jpg" alt="CSS Myskill" />
+                  </li>
+                  <!-- <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Codecademy</h3>
+                    <img src="src/img/certificate/Codecademyjavascript.png" alt="Codecademy JS Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Codecademy</h3>
+                    <img src="src/img/certificate/Codecademyphp.png" alt="Codecademy PHP Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Codepolitan</h3>
+                    <img src="src/img/certificate/2KRU1BH - Menggunakan Bootstrap Framework.jpg" alt="Codepolitan Bootstrap Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Mindluster</h3>
+                    <img src="src/img/certificate/587426042.jpg" alt="Mindluster Tailwind CSS Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Progate</h3>
+                    <img src="src/img/certificate/course_certificate_45507f7brpk91t.jpg" alt="Progate Command Line Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Progate</h3>
+                    <img src="src/img/certificate/course_certificate_5ef65a5erplzp1.jpg" alt="Progate GIT Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Dicoding</h3>
+                    <img src="src/img/certificate/baparekraf-developer-day-2022-certificate.jpg" alt="Dicoding Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Ruang Guru</h3>
+                    <img src="src/img/certificate/Sertifikat Bincang Literasi Digital 34 RAIHAN RAMADHAN.jpg" alt="Ruang Guru Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Univ. Bina Sarana Informatika</h3>
+                    <img src="src/img/certificate/RAIHAN RAMADHAN_seminar_tematik.jpg" alt="UBSI Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Univ. Bina Sarana Informatika</h3>
+                    <img src="src/img/certificate/BEC-X-12211125-SWE2021_page.jpg" alt="UBSI Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item all-certificates">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Univ. Bina Sarana Informatika</h3>
+                    <img src="src/img/certificate/Sertifikat-SG2-94.jpg" alt="UBSI Seminar Certificate" />
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="certificates-item all-certificates thumbnail-slider-all splide mt-4">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif2.jpg" alt="Kominfo VSGA Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif1.jpg" alt="Metaverse" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif3.jpg" alt="HTML Myskill" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif4.jpg" alt="CSS Myskill" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <!-- <li class="splide__slide">
+                    <img src="src/img/certificate/Codecademyjavascript.png" alt="Codecademy JS Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/Codecademyphp.png" alt="Codecademy PHP Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/2KRU1BH - Menggunakan Bootstrap Framework.jpg" alt="Codepolitan Bootstrap Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/587426042.jpg" alt="Mindluster Tailwind CSS Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/course_certificate_45507f7brpk91t.jpg" alt="Progate Command Line Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/course_certificate_5ef65a5erplzp1.jpg" alt="Progate GIT Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/baparekraf-developer-day-2022-certificate.jpg" alt="Dicoding Seminar Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/Sertifikat Bincang Literasi Digital 34 RAIHAN RAMADHAN.jpg" alt="Ruang Guru Seminar Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/RAIHAN RAMADHAN_seminar_tematik.jpg" alt="UBSI Seminar Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/BEC-X-12211125-SWE2021_page.jpg" alt="UBSI Seminar Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/Sertifikat-SG2-94.jpg" alt="UBSI Seminar Certificate" width="200px" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="completion-container">
+            <div class="main-slider-completion splide">
+              <div class="splide__track overflow-visible">
+                <ul class="splide__list">
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">VSGA Kominfo Digitalent</h3>
+                    <img src="src/img/certificate/sertif2.jpg" alt="Kominfo VSGA Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Metaverse Digitalent</h3>
+                    <img src="src/img/certificate/sertif1.jpg" alt="Metaverse" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">HTML Myskill</h3>
+                    <img src="src/img/certificate/sertif3.jpg" alt="HTML Myskill" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Sololearn</h3>
+                    <img src="src/img/certificate/sertif4.jpg" alt="CSS Myskill" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">CSS Myskill</h3>
+                    <img src="src/img/certificate/Codecademyjavascript.png" alt="Codecademy JS Certificate" />
+                  </li>
+                  <!-- <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Codecademy</h3>
+                    <img src="src/img/certificate/Codecademyphp.png" alt="Codecademy PHP Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Codepolitan</h3>
+                    <img src="src/img/certificate/2KRU1BH - Menggunakan Bootstrap Framework.jpg" alt="Codepolitan Bootstrap Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Mindluster</h3>
+                    <img src="src/img/certificate/587426042.jpg" alt="Mindluster Tailwind CSS Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Progate</h3>
+                    <img src="src/img/certificate/course_certificate_45507f7brpk91t.jpg" alt="Progate Command Line Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item completion hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Progate</h3>
+                    <img src="src/img/certificate/course_certificate_5ef65a5erplzp1.jpg" alt="Progate GIT Certificate" />
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="certificates-item completion thumbnail-slider-completion splide hidden mt-4">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif2.jpg" alt="VSGA Kominfo Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif1.jpg" alt="Metaverse" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif3.jpg" alt="HTML Myskill" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/sertif4.jpg" alt="CSS Myskill" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <!-- <li class="splide__slide">
+                    <img src="src/img/certificate/Codecademyjavascript.png" alt="Codecademy JS Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/Codecademyphp.png" alt="Codecademy PHP Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/2KRU1BH - Menggunakan Bootstrap Framework.jpg" alt="Codepolitan Bootstrap Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/587426042.jpg" alt="Mindluster Tailwind CSS Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/course_certificate_45507f7brpk91t.jpg" alt="Progate Command Line Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/course_certificate_5ef65a5erplzp1.jpg" alt="Progate GIT Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="seminar-container">
+            <div class="main-slider-seminar splide">
+              <div class="splide__track overflow-visible">
+                <ul class="splide__list">
+                  <!-- <li class="splide__slide certificates-item seminar hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Dicoding</h3>
+                    <img src="src/img/certificate/baparekraf-developer-day-2022-certificate.jpg" alt="Dicoding Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item seminar hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Ruang Guru</h3>
+                    <img src="src/img/certificate/Sertifikat Bincang Literasi Digital 34 RAIHAN RAMADHAN.jpg" alt="Ruang Guru Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item seminar hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Univ. Bina Sarana Informatika</h3>
+                    <img src="src/img/certificate/RAIHAN RAMADHAN_seminar_tematik.jpg" alt="UBSI Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item seminar hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Univ. Bina Sarana Informatika</h3>
+                    <img src="src/img/certificate/BEC-X-12211125-SWE2021_page.jpg" alt="UBSI Seminar Certificate" />
+                  </li>
+                  <li class="splide__slide certificates-item seminar hidden">
+                    <h3 class="text-white text-center font-medium mt-[-35px] sm:text-lg sm:mt-[-40px]">Univ. Bina Sarana Informatika</h3>
+                    <img src="src/img/certificate/Sertifikat-SG2-94.jpg" alt="UBSI Seminar Certificate" />
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="certificates-item seminar thumbnail-slider-seminar splide hidden mt-4">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <!-- <li class="splide__slide">
+                    <img src="src/img/certificate/baparekraf-developer-day-2022-certificate.jpg" alt="Dicoding Seminar Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/Sertifikat Bincang Literasi Digital 34 RAIHAN RAMADHAN.jpg" alt="Ruang Guru Seminar Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/RAIHAN RAMADHAN_seminar_tematik.jpg" alt="UBSI Seminar Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/BEC-X-12211125-SWE2021_page.jpg" alt="UBSI Seminar Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="src/img/certificate/Sertifikat-SG2-94.jpg" alt="UBSI Seminar Certificate" />
+                    <div class="bg-certificate bg-black/30 absolute w-full h-full z-10"></div>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Certificate Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-16 pb-32 bg-white dark:bg-dark transition duration-500 relative mt-[-40px] max-w-2xl mx-auto">
+      <div class="container">
+        <div class="w-full px-1">
+          <h2 class="text-xl dark:text-white transition duration-500 font-semibold mb-3 sm:text-2xl">Portfolio</h2>
+          <div id="pegangid" class="portfolio-item mb-4" portfolio-category="pegangid">
+            <img src="src/img/portfolio/pegangid.png" alt="pegangid" class="rounded-lg border-2 mb-3" />
+            <a href="https://pegangid.github.io/" target="_blank" class="link-portfolio flex gap-[0.35rem] [&>*:hover]:font-semibold [&>*:hover]:text-primary [&>h2:hover]:border-b-2 [&>h2:hover]:border-primary [&>*:hover]:duration-300">
+              <h2 class="text-[17px] dark:text-white font-semibold sm:text-xl border-b-2 border-b-white dark:border-b-dark transition duration-500">Peduli Cegah Stunting</h2>
+              <img src="src/img/icon/link-icon.svg" alt="Link Icon" class="w-4 h-4 sm:w-5 sm:h-5 mt-[0.35rem] opacity-0 fill-white" />
+            </a>
+            <h3 class="text-base dark:text-white transition duration-500 font-medium leading-loose mt-4 sm:text-lg">Description</h3>
+            <p class="text-sm dark:text-white transition duration-500 mb-4 sm:text-base">
+              This website is to find out about stunting in Indonesia in terms of information and knowledge about stunting, and you can use stunting calculators for children.
+            </p>
+            <div class="flex items-center justify-between bg-primaryLight dark:bg-slate-600 dark:text-white transition duration-500 rounded-xl text-xs pl-3 sm:text-sm">
+              <p>Technology</p>
+              <div class="flex bg-primary dark:bg-slate-700 transition duration-500 rounded-xl py-1 px-3 gap-1">
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/html-1.0fc2b83d.svg" alt="HTML" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/css-3.18344ad1.svg" alt="CSS" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/javascript-1.877889fe.svg" alt="Javascript" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="jasacoding" class="portfolio-item mb-4 hidden" portfolio-category="jasacoding">
+            <img src="src/img/portfolio/porto2.jpeg" alt="jasacoding" class="rounded-lg border-2 mb-3" />
+            <a
+              href="https://ahmadbadri25.github.io/Imou-Soulution/"
+              target="_blank"
+              class="link-portfolio flex gap-[0.35rem] [&>*:hover]:font-semibold [&>*:hover]:text-primary [&>h2:hover]:border-b-2 [&>h2:hover]:border-primary [&>*:hover]:duration-300"
+            >
+              <h2 class="text-[17px] dark:text-white font-semibold sm:text-xl border-b-2 border-b-white dark:border-b-dark transition duration-500">Website Jasa Coding</h2>
+              <img src="src/img/icon/link-icon.svg" alt="Link Icon" class="w-4 h-4 sm:w-5 sm:h-5 mt-[0.35rem] opacity-0 fill-white" />
+            </a>
+            <h3 class="text-base dark:text-white transition duration-500 font-medium leading-loose mt-4 sm:text-lg">Description</h3>
+            <p class="text-sm dark:text-white transition duration-500 mb-4 sm:text-base">
+              A coding services website focuses on providing expertise in HTML, CSS, JavaScript, and PHP. It connects clients with skilled programmers for web development, design, and interactive elements using these languages.
+            </p>
+            <div class="flex items-center justify-between bg-primaryLight dark:bg-slate-600 dark:text-white transition duration-500 rounded-xl text-xs pl-3 sm:text-sm">
+              <p>Technology</p>
+              <div class="flex bg-primary dark:bg-slate-700 transition duration-500 rounded-xl py-1 px-3 gap-1">
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/html-1.0fc2b83d.svg" alt="HTML" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/css-3.18344ad1.svg" alt="CSS" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/javascript-1.877889fe.svg" alt="Javascript" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="undangan" class="portfolio-item mb-4 hidden" portfolio-category="undangan">
+            <img src="src/img/portfolio/porto3.jpeg" alt="undangan" class="rounded-lg border-2 mb-3" />
+            <a
+              href="https://ahmadbadri25.github.io/undangan-online/"
+              target="_blank"
+              class="link-portfolio flex gap-[0.35rem] [&>*:hover]:font-semibold [&>*:hover]:text-primary [&>h2:hover]:border-b-2 [&>h2:hover]:border-primary [&>*:hover]:duration-300"
+            >
+              <h2 class="text-[17px] dark:text-white font-semibold sm:text-xl border-b-2 border-b-white dark:border-b-dark transition duration-500">Undangan Online</h2>
+              <img src="src/img/icon/link-icon.svg" alt="Link Icon" class="w-4 h-4 sm:w-5 sm:h-5 mt-[0.35rem] opacity-0 fill-white" />
+            </a>
+            <h3 class="text-base dark:text-white transition duration-500 font-medium leading-loose mt-4 sm:text-lg">Description</h3>
+            <p class="text-sm dark:text-white transition duration-500 mb-4 sm:text-base">
+              "An online invitation website serves as a digital platform to effortlessly create and manage event invitations, simplifying the process of sending and tracking RSVPs."
+            </p>
+            <!-- <div class="flex mb-4">
+              <svg class="mr-1.5 mt-[2px] inline-flex sm:w-5 sm:h-5 sm:mt-[1px]" width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M11 4H14C14.5304 4 15.0391 4.21071 15.4142 4.58579C15.7893 4.96086 16 5.46957 16 6V13" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 7V19" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div> -->
+            <div class="flex items-center justify-between bg-primaryLight dark:bg-slate-600 dark:text-white transition duration-500 rounded-xl text-xs pl-3 sm:text-sm">
+              <p>Technology</p>
+              <div class="flex bg-primary dark:bg-slate-700 transition duration-500 rounded-xl py-1 px-3 gap-1">
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/html-1.0fc2b83d.svg" alt="HTML" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/css-3.18344ad1.svg" alt="CSS" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/javascript-1.877889fe.svg" alt="Javascript" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/bootstrap-5-1.de64f6ae.svg" alt="Bootstrap" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="hipertensi" class="portfolio-item mb-4 hidden" portfolio-category="hipertensi">
+            <img src="src/img/portfolio/porto4.jpeg" alt="hipertensi" class="rounded-lg border-2 mb-3" />
+            <a href="#php" target="_blank" class="link-portfolio flex gap-[0.35rem] [&>*:hover]:font-semibold [&>*:hover]:text-primary [&>h2:hover]:border-b-2 [&>h2:hover]:border-primary [&>*:hover]:duration-300">
+              <h2 class="text-[17px] dark:text-white font-semibold sm:text-xl border-b-2 border-b-white dark:border-b-dark transition duration-500">Website Check Up Hipertensi</h2>
+              <img src="src/img/icon/link-icon.svg" alt="Link Icon" class="w-4 h-4 sm:w-5 sm:h-5 mt-[0.35rem] opacity-0 fill-white" />
+            </a>
+            <h3 class="text-base dark:text-white transition duration-500 font-medium leading-loose mt-4 sm:text-lg">Description</h3>
+            <p class="text-sm dark:text-white transition duration-500 mb-4 sm:text-base">
+              The Hypertension Check-Up website serves as a platform for individuals to assess their blood pressure levels and overall health status. Through user-friendly interfaces, visitors can input their data and receive instant
+              feedback on potential hypertension risks. This website aims to promote awareness and proactive management of high blood pressure, contributing to better cardiovascular health.
+            </p>
+            <div class="flex mb-4"></div>
+            <div class="flex items-center justify-between bg-primaryLight dark:bg-slate-600 dark:text-white transition duration-500 rounded-xl text-xs pl-3 sm:text-sm">
+              <p>Technology</p>
+              <div class="flex bg-primary dark:bg-slate-700 transition duration-500 rounded-xl py-1 px-3 gap-1">
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/html-1.0fc2b83d.svg" alt="HTML" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/css-3.18344ad1.svg" alt="CSS" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/javascript-1.877889fe.svg" alt="Javascript" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/bootstrap-5-1.de64f6ae.svg" alt="Bootstrap" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/php-1.a90b047e.svg" alt="PHP" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="air" class="portfolio-item mb-4 hidden" portfolio-category="air">
+            <img src="src/img/portfolio/porto5.jpeg" alt="hipertensi" class="rounded-lg border-2 mb-3" />
+            <a href="#php" target="_blank" class="link-portfolio flex gap-[0.35rem] [&>*:hover]:font-semibold [&>*:hover]:text-primary [&>h2:hover]:border-b-2 [&>h2:hover]:border-primary [&>*:hover]:duration-300">
+              <h2 class="text-[17px] dark:text-white font-semibold sm:text-xl border-b-2 border-b-white dark:border-b-dark transition duration-500">SPK-Air Mineral</h2>
+              <img src="src/img/icon/link-icon.svg" alt="Link Icon" class="w-4 h-4 sm:w-5 sm:h-5 mt-[0.35rem] opacity-0 fill-white" />
+            </a>
+            <h3 class="text-base dark:text-white transition duration-500 font-medium leading-loose mt-4 sm:text-lg">Description</h3>
+            <p class="text-sm dark:text-white transition duration-500 mb-4 sm:text-base">
+              Welcome to the Mineral Water Testing House (RUAM) for your Mineral Water Quality Assurance needs - the Ultimate Destination to Find Reliable Hydration Solutions! Discover the finest mineral water that revitalizes your health
+              effortlessly and swiftly. With accurate information and tailored recommendations, we will assist you in making the right choices for your hydration needs. Indulge in the refreshing and wholesome benefits of high-quality
+              mineral water, as your health is our top priority. Get ready to experience freshness and optimal well-being with RUAM!
+            </p>
+            <!-- <div class="flex mb-4">
+              <svg class="mr-1.5 mt-[2px] inline-flex sm:w-5 sm:h-5 sm:mt-[1px]" width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M11 4H14C14.5304 4 15.0391 4.21071 15.4142 4.58579C15.7893 4.96086 16 5.46957 16 6V13" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 7V19" stroke="#34D39A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <p class="text-sm sm:text-base dark:text-white">
+                This project develop with <a href="https://www.instagram.com/wandesay.id/" target="_blank" class="font-semibold"><u>Alvin</u></a
+                >, <a href="https://www.instagram.com/yusups_24/" target="_blank" class="font-semibold"><u>Yusup</u></a
+                >, <a href="https://www.instagram.com/nabilmuthi77/" target="_blank" class="font-semibold"><u>Nabil</u></a> & <a href="https://www.instagram.com/fdlyfat/" target="_blank" class="font-semibold"><u>Fadly</u></a
+                >.
+              </p>
+            </div> -->
+            <div class="flex items-center justify-between bg-primaryLight dark:bg-slate-600 dark:text-white transition duration-500 rounded-xl text-xs pl-3 sm:text-sm">
+              <p>Technology</p>
+              <div class="flex bg-primary dark:bg-slate-700 transition duration-500 rounded-xl py-1 px-3 gap-1">
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/html-1.0fc2b83d.svg" alt="HTML" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/css-3.18344ad1.svg" alt="CSS" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/javascript-1.877889fe.svg" alt="Javascript" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/bootstrap-5-1.de64f6ae.svg" alt="Bootstrap" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/php-1.a90b047e.svg" alt="PHP" />
+                </div>
+                <div class="flex items-center justify-center bg-white p-[5px] w-7 rounded-full sm:p-2 sm:w-8">
+                  <img src="src/img/icon/codeigniter.4b9345d6.svg" alt="Codeigniter" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="thumbnail-portfolio" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list gap-3">
+                <li class="splide__slide filter-portfolio overflow-hidden bg-secondary dark:bg-slate-800 transition duration-500 p-[10px] rounded-xl relative" portfolio-filter="pegangid">
+                  <div class="img-sum overflow-hidden [&>.title]:hover:left-0 relative">
+                    <img src="src/img/portfolio/pegangid.png" alt="pegangid" class="w-full" />
+                    <div
+                      id="pegangid-button"
+                      portfolio-filter="pegangid"
+                      class="filter-portfolio title flex items-center justify-center left-[-100%] transition-all duration-500 absolute top-0 w-full h-full opacity-90 bg-primary dark:bg-slate-800"
+                    >
+                      <p class="text-center text-xs text-white font-medium sm:text-base">Peduli Cegah Stunting</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide filter-portfolio overflow-hidden bg-secondary dark:bg-slate-800 transition duration-500 p-[10px] rounded-xl relative" portfolio-filter="jasacoding">
+                  <div class="img-sum overflow-hidden [&>.title]:hover:left-0 relative">
+                    <img src="src/img/portfolio/porto2.jpeg" alt="jasacoding" class="w-full" />
+                    <div
+                      id="jasacoding-button"
+                      portfolio-filter="jasacoding"
+                      class="filter-portfolio title flex items-center justify-center left-[-100%] transition-all duration-500 absolute top-0 w-full h-full opacity-90 bg-primary dark:bg-slate-800"
+                    >
+                      <p class="text-center text-xs text-white font-medium sm:text-base">Website Jasa Coding</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide filter-portfolio overflow-hidden bg-secondary dark:bg-slate-800 transition duration-500 p-[10px] rounded-xl relative" portfolio-filter="undangan">
+                  <div class="img-sum overflow-hidden [&>.title]:hover:left-0 relative">
+                    <img src="src/img/portfolio/porto3.jpeg" alt="undangan" class="w-full" />
+                    <div
+                      id="undangan-button"
+                      portfolio-filter="undangan"
+                      class="filter-portfolio title flex items-center justify-center left-[-100%] transition-all duration-500 absolute top-0 w-full h-full opacity-90 bg-primary dark:bg-slate-800"
+                    >
+                      <p class="text-center text-xs text-white font-medium sm:text-base">Portfolio Bootsrap 5</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide filter-portfolio overflow-hidden bg-secondary dark:bg-slate-800 transition duration-500 p-[10px] rounded-xl relative" portfolio-filter="hipertensi">
+                  <div class="img-sum overflow-hidden [&>.title]:hover:left-0 relative">
+                    <img src="src/img/portfolio/porto4.jpeg" alt="SISKAMLING" class="w-full" />
+                    <div
+                      id="hipertensi-button"
+                      portfolio-filter="hipertensi"
+                      class="filter-portfolio title flex items-center justify-center left-[-100%] transition-all duration-500 absolute top-0 w-full h-full opacity-90 bg-primary dark:bg-slate-800"
+                    >
+                      <p class="text-center text-xs text-white font-medium sm:text-base">Website Check Up Hipertensi</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide filter-portfolio overflow-hidden bg-secondary dark:bg-slate-800 transition duration-500 p-[10px] rounded-xl relative" portfolio-filter="air">
+                  <div class="img-sum overflow-hidden [&>.title]:hover:left-0 relative">
+                    <img src="src/img/portfolio/porto5.jpeg" alt="hipertensi" class="w-full" />
+                    <div id="air-button" portfolio-filter="air" class="filter-portfolio title flex items-center justify-center left-[-100%] transition-all duration-500 absolute top-0 w-full h-full opacity-90 bg-primary dark:bg-slate-800">
+                      <p class="text-center text-xs text-white font-medium sm:text-base">SPK-Air Mineral</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-10 pb-10 bg-primaryLight dark:bg-slate-600 transition duration-500 relative z-10 sm:bg-white sm:border-8 sm:border-secondary max-w-2xl mx-auto">
+      <div class="container">
+        <div class="w-full px-6">
+          <div class="p-6 mt-[-90px] bg-primary dark:bg-slate-700 transition duration-500 rounded-2xl">
+            <h2 class="text-white mb-3 text-center sm:text-xl">Contact Us</h2>
+            <form name="badri-contact-form">
+              <div id="my-alert" class="hidden p-4 mb-4 text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
+                <div class="flex">
+                  <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span class="sr-only">Info</span>
+                  <div class="ml-3 text-xs sm:text-sm font-medium">
+                    <p>Terima Kasih! Pesan anda sudah kami terima.</p>
+                  </div>
+                  <button
+                    id="close-alert"
+                    type="button"
+                    class="ml-auto -mx-1.5 -my-1.5 bg-green-50 text-green-500 rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 hover:bg-green-200 inline-flex h-8 w-8 dark:bg-gray-800 dark:text-green-400 dark:hover:bg-gray-700"
+                    data-dismiss-target="#alert-3"
+                    aria-label="Close"
+                  >
+                    <span class="sr-only">Close</span>
+                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <input type="text" name="nama" placeholder="Full Name" class="w-full rounded-md py-1 px-2 text-base mb-3 sm:text-lg sm:py-2" required />
+              <input type="email" name="email" placeholder="Email" class="w-full rounded-md py-1 px-2 text-base mb-3 sm:text-lg sm:py-2" required />
+              <textarea name="pesan" id="" placeholder="Message" class="w-full rounded-md pt-1 pb-8 px-2 text-base mb-2 sm:text-lg sm:py-2" required></textarea>
+              <button id="btn-sent" type="submit" class="flex justify-center gap-2 items-center w-full py-1 bg-secondary dark:bg-slate-800 transition duration-500 text-white rounded-full sm:py-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15px" fill="#ffffff" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"
+                  />
+                </svg>
+                Send a Message
+              </button>
+              <button id="btn-loading" class="hidden w-full py-1 bg-secondary dark:bg-slate-800 transition duration-500 text-white rounded-full sm:py-2">
+                <div class="flex justify-center items-center">
+                  <div role="status ">
+                    <svg aria-hidden="true" class="w-4 h-4 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+                        fill="currentFill"
+                      />
+                    </svg>
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                  <span>Loading...</span>
+                </div>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="py-6 bg-secondary dark:bg-slate-800 transition duration-500 sm:border-8 sm:border-t-0 sm:border-secondary max-w-2xl mx-auto">
+      <div class="container">
+        <div class="w-full text-white text-center">
+          <p>Copyright @ 2023 Ahmad Badri</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="dist/js/typed.js"></script>
+    <script src="dist/js/splide.min.js"></script>
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>

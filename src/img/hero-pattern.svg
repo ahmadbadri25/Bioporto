@@ -1,0 +1,36 @@
+<svg width="1512" height="1260" viewBox="0 0 1512 1260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="252" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect y="504" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="378" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="378" y="126" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1260" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="504" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect y="378" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1386" y="126" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1134" y="504" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1134" y="378" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1008" y="378" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1260" y="126" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="1386" y="252" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<rect x="126" y="378" width="126" height="126" fill="#9DACBF" fill-opacity="0.03"/>
+<path d="M126 0L126 1008" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1008 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M378 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1260 0V1134" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M756 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M252 0V1134" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1134 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M630 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M504 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1386 0V1007" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M882 0V1260" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 126L-3.11732e-05 126" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 378L-3.11732e-05 378" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 630L-3.11732e-05 630" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 882L-3.11732e-05 882" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1134 1134H378" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 252L0 252" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 504L0 504" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1512 756L0 756" stroke="#9DACBF" stroke-opacity="0.15"/>
+<path d="M1260 1008L252 1008" stroke="#9DACBF" stroke-opacity="0.15"/>
+</svg>
