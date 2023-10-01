@@ -73,7 +73,7 @@ themeToggleBtn.addEventListener('click', function () {
 
 // Home JS Start
 var typed = new Typed('#typed', {
-  strings: ['Web Frontend Developer', 'University Indraprasta PGRI', 'Moeslim', 'IT Support', 'Video Editor'],
+  strings: ['Web Frontend Developer', 'Indraprasta PGRI University', 'Moeslim', 'IT Support'],
   typeSpeed: 50,
   backSpeed: 40,
   backDelay: 2000,
