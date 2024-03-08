@@ -294,68 +294,6 @@ var thumbnailsCourse = new Splide('.thumbnail-slider-course', {
 mainCourse.sync(thumbnailsCourse);
 mainCourse.mount();
 thumbnailsCourse.mount();
-//Front-End
-var mainFrontEnd = new Splide('.main-slider-frontend', {
-  type: 'fade',
-  heightRatio: 0.7,
-  pagination: false,
-  arrows: false,
-  cover: true,
-});
-
-var thumbnailsFrontEnd = new Splide('.thumbnail-slider-frontend', {
-  rewind: true,
-  fixedWidth: 104,
-  fixedHeight: 58,
-  isNavigation: true,
-  gap: 8,
-  focus: 'center',
-  pagination: false,
-  cover: true,
-  dragMinThreshold: {
-    mouse: 4,
-    touch: 10,
-  },
-  breakpoints: {
-    640: {
-      fixedWidth: 66,
-      fixedHeight: 38,
-    },
-  },
-});
-
-mainFrontEnd.sync(thumbnailsFrontEnd);
-mainFrontEnd.mount();
-thumbnailsFrontEnd.mount();
-
-// IT
-var mainIT = new Splide('.main-slider-it', {
-  type: 'fade',
-  heightRatio: 0.7,
-  pagination: false,
-  arrows: false,
-  cover: true,
-});
-var thumbnailsIT = new Splide('.thumbnail-slider-it', {
-  rewind: true,
-  fixedWidth: 104,
-  fixedHeight: 58,
-  isNavigation: true,
-  gap: 8,
-  focus: 'center',
-  pagination: false,
-  cover: true,
-  dragMinThreshold: { mouse: 4, touch: 10 },
-  breakpoints: {
-    640: {
-      fixedWidth: 66,
-      fixedHeight: 38,
-    },
-  },
-});
-mainIT.sync(thumbnailsIT);
-mainIT.mount();
-thumbnailsIT.mount();
 // Certificate Code End
 
 // Portfolio JS Start
