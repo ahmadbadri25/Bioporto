@@ -228,8 +228,8 @@ var thumbnailsAll = new Splide('.thumbnail-slider-all', {
 mainAll.sync(thumbnailsAll);
 mainAll.mount();
 thumbnailsAll.mount();
-
-var mainCompletion = new Splide('.main-slider-completion', {
+//Training
+var mainTraining = new Splide('.main-slider-training', {
   type: 'fade',
   heightRatio: 0.7,
   pagination: false,
@@ -237,7 +237,7 @@ var mainCompletion = new Splide('.main-slider-completion', {
   cover: true,
 });
 
-var thumbnailsCompletion = new Splide('.thumbnail-slider-completion', {
+var thumbnailsTraining = new Splide('.thumbnail-slider-training', {
   rewind: true,
   fixedWidth: 104,
   fixedHeight: 58,
@@ -258,11 +258,11 @@ var thumbnailsCompletion = new Splide('.thumbnail-slider-completion', {
   },
 });
 
-mainCompletion.sync(thumbnailsCompletion);
-mainCompletion.mount();
-thumbnailsCompletion.mount();
-
-var mainSeminar = new Splide('.main-slider-seminar', {
+mainTraining.sync(thumbnailsTraining);
+mainTraining.mount();
+thumbnailsTraining.mount();
+//Course
+var mainCourse = new Splide('.main-slider-course', {
   type: 'fade',
   heightRatio: 0.7,
   pagination: false,
@@ -270,7 +270,7 @@ var mainSeminar = new Splide('.main-slider-seminar', {
   cover: true,
 });
 
-var thumbnailsSeminar = new Splide('.thumbnail-slider-seminar', {
+var thumbnailsCourse = new Splide('.thumbnail-slider-course', {
   rewind: true,
   fixedWidth: 104,
   fixedHeight: 58,
@@ -291,9 +291,71 @@ var thumbnailsSeminar = new Splide('.thumbnail-slider-seminar', {
   },
 });
 
-mainSeminar.sync(thumbnailsSeminar);
-mainSeminar.mount();
-thumbnailsSeminar.mount();
+mainCourse.sync(thumbnailsCourse);
+mainCourse.mount();
+thumbnailsCourse.mount();
+//Front-End
+var mainFrontEnd = new Splide('.main-slider-frontend', {
+  type: 'fade',
+  heightRatio: 0.7,
+  pagination: false,
+  arrows: false,
+  cover: true,
+});
+
+var thumbnailsFrontEnd = new Splide('.thumbnail-slider-frontend', {
+  rewind: true,
+  fixedWidth: 104,
+  fixedHeight: 58,
+  isNavigation: true,
+  gap: 8,
+  focus: 'center',
+  pagination: false,
+  cover: true,
+  dragMinThreshold: {
+    mouse: 4,
+    touch: 10,
+  },
+  breakpoints: {
+    640: {
+      fixedWidth: 66,
+      fixedHeight: 38,
+    },
+  },
+});
+
+mainFrontEnd.sync(thumbnailsFrontEnd);
+mainFrontEnd.mount();
+thumbnailsFrontEnd.mount();
+
+// IT
+var mainIT = new Splide('.main-slider-it', {
+  type: 'fade',
+  heightRatio: 0.7,
+  pagination: false,
+  arrows: false,
+  cover: true,
+});
+var thumbnailsIT = new Splide('.thumbnail-slider-it', {
+  rewind: true,
+  fixedWidth: 104,
+  fixedHeight: 58,
+  isNavigation: true,
+  gap: 8,
+  focus: 'center',
+  pagination: false,
+  cover: true,
+  dragMinThreshold: { mouse: 4, touch: 10 },
+  breakpoints: {
+    640: {
+      fixedWidth: 66,
+      fixedHeight: 38,
+    },
+  },
+});
+mainIT.sync(thumbnailsIT);
+mainIT.mount();
+thumbnailsIT.mount();
 // Certificate Code End
 
 // Portfolio JS Start
